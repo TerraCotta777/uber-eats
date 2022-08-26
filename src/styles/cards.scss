@@ -1,0 +1,37 @@
+.cards {
+  margin-top: 93px;
+  padding-right: 6px;
+
+  .card {
+    max-width: 470px;
+    min-height: 160px;
+    width: 49.6%;
+    padding: 15px 14px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: $btn-border-radius;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fafafa;
+    }
+
+    .card__title {
+      margin-bottom: 3px;
+      font-size: 16px;
+			font-weight: 400;
+      line-height: 24px;
+    }
+
+    .card__subtitle {
+      font-size: 13px;
+      line-height: 21px;
+      color: #626262;
+    }
+
+    .card__add-info {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+}

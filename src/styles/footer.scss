@@ -1,0 +1,40 @@
+.footer {
+  min-height: 234px;
+  background: $primary-color;
+
+  .footer__inner {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .footer__logo {
+    width: 190px;
+    margin-top: 54px;
+    margin-bottom: 37px;
+  }
+
+  .footer__divider {
+    color: $light-color;
+  }
+
+  .footer__copyright {
+    padding-top: 40px;
+    font-size: 11px;
+    line-height: 13px;
+    color: $light-color;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    .footer__inner {
+      padding: 0;
+    }
+
+    .footer__logo {
+      width: 190px;
+      margin-top: 65px;
+      margin-bottom: 39px;
+    }
+  }
+}

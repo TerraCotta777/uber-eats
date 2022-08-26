@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.header {
+  -webkit-box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+          box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  padding: 20px;
+}
+
+.header .logo {
+  width: 119px;
+  display: block;
+}
+
+.header .authorization {
+  max-width: 176px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 996px;
+  }
+}
+
+.button {
+  background-color: #262626;
+  color: #57ad56;
+  border: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.button:focus {
+  outline: 0;
+}

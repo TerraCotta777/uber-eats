@@ -1,0 +1,9 @@
+.banner {
+  height: 364px;
+  background: url(../assets/img/banner.jpg) center/cover no-repeat;
+}
+
+.banner .banner__info {
+  max-width: 389px;
+  height: 204px;
+}

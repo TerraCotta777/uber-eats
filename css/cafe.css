@@ -1,0 +1,120 @@
+.menu {
+  margin-top: 113px;
+  margin-bottom: 24px;
+}
+
+.menu .menu__title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.menu hr {
+  width: 50px;
+  margin: 11px auto;
+}
+
+.menu .cards {
+  margin-top: 43px;
+  padding-right: 4px;
+  padding-left: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .menu .cards .card {
+    width: 100%;
+    min-height: 102px;
+    margin-bottom: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  }
+  .menu .cards .card .card__title {
+    font-size: 14px;
+  }
+}
+
+.menu .cards .card .card__subtitle {
+  height: 21px;
+  margin-bottom: 18px;
+}
+
+.menu .cards .card .card__add-info {
+  padding-bottom: 15px;
+}
+
+.menu .cards .card .card__img {
+  width: 102px;
+  height: 102px;
+}
+
+@media (min-width: 576px) {
+  .menu {
+    margin-top: 56px;
+    margin-bottom: 29px;
+  }
+  .menu .menu__title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .menu hr {
+    display: none;
+  }
+  .menu .cards {
+    margin-top: 31px;
+    padding: 0 5px 0 0;
+  }
+  .menu .cards .card {
+    width: 100%;
+    margin-bottom: 49px;
+    padding: 0;
+  }
+  .menu .cards .card .card__info {
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+    padding: 15px;
+    padding-right: 0;
+  }
+  .menu .cards .card .card__add-info {
+    padding-bottom: 0;
+  }
+  .menu .cards .card .card__img {
+    width: 170px;
+    height: 158px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu .menu__title {
+    text-align: left;
+  }
+  .menu .cards {
+    margin-top: 31px;
+    padding: 0 5px 0 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .menu .cards .card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu .cards .card {
+    width: 50%;
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+	padding: 15px 4px;
+  box-shadow: $box-shadow;
+
+  .header__inner {
+		padding-left: 4px;
+  }
+
+  .header__logo {
+		width: 105px;
+  }
+
+  .authorization {
+		width: 156px;
+		margin-top: 1px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding: 15px 20px;
+
+		.header__inner {
+			padding-left: 0;
+			padding-right: 6px;
+		}
+	
+		.header__logo {
+			width: 119px;
+		}
+	
+		.authorization {
+			width: 176px;
+		}
+  }
+}
